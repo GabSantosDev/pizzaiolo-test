@@ -27,7 +27,7 @@ COPY --from=ts-compiler /usr/app/tsconfig.json ./
 COPY --from=ts-compiler /usr/app/prisma ./
 
 # Run when test local
-COPY --from=ts-compiler /usr/app/.env ./
+#COPY --from=ts-compiler /usr/app/.env ./
 
 RUN yarn
 
