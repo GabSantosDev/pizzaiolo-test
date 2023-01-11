@@ -2,7 +2,8 @@ version: '3.9'
 
 services:
   pizzaiolo:
-    image: gabsantos/pizzaa
+    # image: gabsantos/pizzaa
+    image: ghcr.io/gabsantos/pizzaiolo
     container_name: pizzaiolo
     restart: unless-stopped
     environment:
